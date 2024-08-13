@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="Windows Offender" Height="450" Width="700"
         ResizeMode="NoResize"
-        Closing="Window_Closing">
+       
+        Closing="Window_Closing" Icon="/Untitled.png">
     <Grid>
         <Label Content="Windows Offender" HorizontalAlignment="Left" Height="43" Margin="21,19,0,0" VerticalAlignment="Top" Width="178" FontFamily="Yu Gothic UI Light" FontSize="20"/>
         <Button Name="Buttonn" Content="Begin Scan" Height="39" Margin="473,350,0,0" VerticalAlignment="Top" Width="165" FontFamily="Yu Gothic UI Semilight" Background="#FFCEE6E6" HorizontalAlignment="Left" Click="Button_Click"/>
